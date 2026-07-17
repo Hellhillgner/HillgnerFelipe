@@ -5,4 +5,3 @@ def calcular_area_triangulo():
     area = (base * altura) / 2
     print(f"A área do triângulo é: {area}")
 
-calcular_area_triangulo()
