@@ -10,10 +10,6 @@ while True:
             reverter_inteiro()
         case "3":
             break
-<<<<<<< HEAD
         case "_":
             print("Por favor digite uma opção válida")
 print("Obrigado por usar esse programa maneiro, até a próxima!")
-=======
-print("Obrigado por usar esse programa maneiro, até a próxima!")
->>>>>>> feature/HF-777
