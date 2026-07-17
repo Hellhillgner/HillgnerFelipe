@@ -1,18 +1,12 @@
-# Versos íntimos [Augusto dos Anjos]
-# Vês! Ninguém assistiu ao formidável
-# Enterro de sua última quimera.
-# Somente a Ingratidão – esta pantera –
-# Foi tua companheira inseparável!
-
-# Acostuma-te à lama que te espera!
-# O homem, que, nesta terra miserável,
-# Mora, entre feras, sente inevitável
-# Necessidade de também ser fera.
-
-# Toma um fósforo. Acende teu cigarro!
-# O beijo, amigo, é a véspera do escarro,
-# A mão que afaga é a mesma que apedreja.
-
-# Se alguém causa inda pena a tua chaga,
-# Apedreja essa mão vil que te afaga,
-# Escarra nessa boca que te beija!
+from reverter_inteiro import reverter_inteiro
+print("Olá! Tudo bem coleguinha?")
+while True:
+    opcao = input("Se você deseja ver a função do Hillgner digite 1, se deseja ver a função do Felipe digite 2, digite 3 para encerrar o programa\n")
+    match opcao:
+        case "1":
+            continue #atualizar com a função do Hillgner
+        case "2":
+            reverter_inteiro()
+        case "3":
+            break
+print("Obrigado por usar esse programa maneiro, até a próxima!")
